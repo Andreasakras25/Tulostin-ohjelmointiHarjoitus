@@ -9,4 +9,19 @@ public class App {
         String tekijä = "opiskelija";
         System.out.println(tekijä);
         
-       
+        // Doublen avulla saadaan luvut desimaalin tarkkuudelle
+        double luku1 = 5;
+        double luku2 = 2;
+ 
+        // Määritetään muuttuja "tulo", kertoo luku1 ja luku2
+        double tulo;
+        tulo = luku1*luku2;
+ 
+        System.out.println("Luku1-muuttujan arvo on " + luku1);
+        System.out.println("Luku2-muuttujan arvo on " + luku2);
+        
+        // Printtaa "tulo" muuttujasta saadun tuloksen
+        System.out.println(luku1 + " * " + luku2 + " = " + tulo);
+
+    }
+}
