@@ -23,5 +23,9 @@ public class App {
         // Printtaa "tulo" muuttujasta saadun tuloksen
         System.out.println(luku1 + " * " + luku2 + " = " + tulo);
 
+        // Määritetään summa, jako ja erotus muuttujat (eivät ole käytössä)
+        double summa = luku1 + luku2;
+        double jako = luku1/luku2;
+        double erotus = luku1-luku2;
     }
 }
